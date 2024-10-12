@@ -1,0 +1,83 @@
+* {
+    color: #555;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d30f40;
+    margin: 0;
+    padding: 20px;
+      /* Update the path to your image */
+      /* background-image: url('istockphoto-1135194935-612x612.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+    }
+  h2 {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #d30f40;
+    background-color: #fffbfb;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .container{
+    background-color:#640e23;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    border:1px solid #d30f40;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 10px #fff;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #d30f40;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 0px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ 
+  input[type="submit"] {
+    background-color: #d30f40;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  input[type="submit"]:hover {
+    background-color: #f33262;
+  }
+  .extra1 {
+    margin-top: 15px;
+    text-align: right;
+  }
+  .extra1 a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  .extra1 a:hover {
+    text-decoration: underline;
+  }
